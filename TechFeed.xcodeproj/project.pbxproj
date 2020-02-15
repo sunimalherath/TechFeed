@@ -17,7 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		456CF27623F7EE0F00ADDC9C /* TechFeed.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TechFeed.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		456CF27623F7EE0F00ADDC9C /* Tech Feed.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Tech Feed.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		456CF27923F7EE0F00ADDC9C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		456CF27B23F7EE0F00ADDC9C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		456CF27D23F7EE0F00ADDC9C /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
@@ -50,7 +50,7 @@
 		456CF27723F7EE0F00ADDC9C /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				456CF27623F7EE0F00ADDC9C /* TechFeed.app */,
+				456CF27623F7EE0F00ADDC9C /* Tech Feed.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -58,16 +58,40 @@
 		456CF27823F7EE0F00ADDC9C /* TechFeed */ = {
 			isa = PBXGroup;
 			children = (
+				456CF29123F7EE6700ADDC9C /* Model */,
+				456CF29023F7EE5F00ADDC9C /* View */,
+				456CF28F23F7EE5100ADDC9C /* Controller */,
 				456CF27923F7EE0F00ADDC9C /* AppDelegate.swift */,
 				456CF27B23F7EE0F00ADDC9C /* SceneDelegate.swift */,
-				456CF27D23F7EE0F00ADDC9C /* FirstViewController.swift */,
-				456CF27F23F7EE0F00ADDC9C /* SecondViewController.swift */,
 				456CF28123F7EE0F00ADDC9C /* Main.storyboard */,
 				456CF28423F7EE1400ADDC9C /* Assets.xcassets */,
 				456CF28623F7EE1400ADDC9C /* LaunchScreen.storyboard */,
 				456CF28923F7EE1400ADDC9C /* Info.plist */,
 			);
 			path = TechFeed;
+			sourceTree = "<group>";
+		};
+		456CF28F23F7EE5100ADDC9C /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				456CF27D23F7EE0F00ADDC9C /* FirstViewController.swift */,
+				456CF27F23F7EE0F00ADDC9C /* SecondViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		456CF29023F7EE5F00ADDC9C /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		456CF29123F7EE6700ADDC9C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -87,7 +111,7 @@
 			);
 			name = TechFeed;
 			productName = TechFeed;
-			productReference = 456CF27623F7EE0F00ADDC9C /* TechFeed.app */;
+			productReference = 456CF27623F7EE0F00ADDC9C /* Tech Feed.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -291,14 +315,15 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8TT3935U7A;
 				INFOPLIST_FILE = TechFeed/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.cod3breaker.TechFeed;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Tech Feed";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -309,14 +334,15 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8TT3935U7A;
 				INFOPLIST_FILE = TechFeed/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.cod3breaker.TechFeed;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Tech Feed";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
