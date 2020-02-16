@@ -3,10 +3,11 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		450E5D8423F8241700ABD626 /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 450E5D8323F8241700ABD626 /* DataService.swift */; };
 		456CF27A23F7EE0F00ADDC9C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 456CF27923F7EE0F00ADDC9C /* AppDelegate.swift */; };
 		456CF27C23F7EE0F00ADDC9C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 456CF27B23F7EE0F00ADDC9C /* SceneDelegate.swift */; };
 		456CF27E23F7EE0F00ADDC9C /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 456CF27D23F7EE0F00ADDC9C /* FirstViewController.swift */; };
@@ -20,6 +21,7 @@
 
 /* Begin PBXFileReference section */
 		42E24A2AC7F79C251746AAF6 /* Pods-TechFeed.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TechFeed.debug.xcconfig"; path = "Target Support Files/Pods-TechFeed/Pods-TechFeed.debug.xcconfig"; sourceTree = "<group>"; };
+		450E5D8323F8241700ABD626 /* DataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
 		456CF27623F7EE0F00ADDC9C /* Tech Feed.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Tech Feed.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		456CF27923F7EE0F00ADDC9C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		456CF27B23F7EE0F00ADDC9C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -46,6 +48,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		450E5D8223F823CC00ABD626 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				450E5D8323F8241700ABD626 /* DataService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
 		456CF26D23F7EE0F00ADDC9C = {
 			isa = PBXGroup;
 			children = (
@@ -67,6 +77,7 @@
 		456CF27823F7EE0F00ADDC9C /* TechFeed */ = {
 			isa = PBXGroup;
 			children = (
+				450E5D8223F823CC00ABD626 /* Services */,
 				456CF29123F7EE6700ADDC9C /* Model */,
 				456CF29023F7EE5F00ADDC9C /* View */,
 				456CF28F23F7EE5100ADDC9C /* Controller */,
@@ -118,7 +129,6 @@
 				42E24A2AC7F79C251746AAF6 /* Pods-TechFeed.debug.xcconfig */,
 				E0CE1ED16ADDA14CBABCACCA /* Pods-TechFeed.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -242,6 +252,7 @@
 				456CF27E23F7EE0F00ADDC9C /* FirstViewController.swift in Sources */,
 				456CF27A23F7EE0F00ADDC9C /* AppDelegate.swift in Sources */,
 				456CF27C23F7EE0F00ADDC9C /* SceneDelegate.swift in Sources */,
+				450E5D8423F8241700ABD626 /* DataService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
