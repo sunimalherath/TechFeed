@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		450E5D8423F8241700ABD626 /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 450E5D8323F8241700ABD626 /* DataService.swift */; };
+		450E5D8623F941ED00ABD626 /* AuthVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 450E5D8523F941ED00ABD626 /* AuthVC.swift */; };
 		456CF27A23F7EE0F00ADDC9C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 456CF27923F7EE0F00ADDC9C /* AppDelegate.swift */; };
 		456CF27C23F7EE0F00ADDC9C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 456CF27B23F7EE0F00ADDC9C /* SceneDelegate.swift */; };
 		456CF27E23F7EE0F00ADDC9C /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 456CF27D23F7EE0F00ADDC9C /* FirstViewController.swift */; };
@@ -22,6 +23,7 @@
 /* Begin PBXFileReference section */
 		42E24A2AC7F79C251746AAF6 /* Pods-TechFeed.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TechFeed.debug.xcconfig"; path = "Target Support Files/Pods-TechFeed/Pods-TechFeed.debug.xcconfig"; sourceTree = "<group>"; };
 		450E5D8323F8241700ABD626 /* DataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
+		450E5D8523F941ED00ABD626 /* AuthVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthVC.swift; sourceTree = "<group>"; };
 		456CF27623F7EE0F00ADDC9C /* Tech Feed.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Tech Feed.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		456CF27923F7EE0F00ADDC9C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		456CF27B23F7EE0F00ADDC9C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -97,6 +99,7 @@
 			children = (
 				456CF27D23F7EE0F00ADDC9C /* FirstViewController.swift */,
 				456CF27F23F7EE0F00ADDC9C /* SecondViewController.swift */,
+				450E5D8523F941ED00ABD626 /* AuthVC.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -248,6 +251,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				450E5D8623F941ED00ABD626 /* AuthVC.swift in Sources */,
 				456CF28023F7EE0F00ADDC9C /* SecondViewController.swift in Sources */,
 				456CF27E23F7EE0F00ADDC9C /* FirstViewController.swift in Sources */,
 				456CF27A23F7EE0F00ADDC9C /* AppDelegate.swift in Sources */,
