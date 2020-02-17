@@ -9,10 +9,13 @@
 import UIKit
 
 class LoginVC: UIViewController {
-
+    
+    @IBOutlet weak var emailField: InsetTextField!
+    @IBOutlet weak var passwordField: InsetTextField!
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+    }
+    
+    @IBAction func loginBtnWasPressed(_ sender: Any) {
     }
 }

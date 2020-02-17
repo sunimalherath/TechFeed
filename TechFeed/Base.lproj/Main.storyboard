@@ -191,6 +191,9 @@
                                         <state key="normal" title="Login">
                                             <color key="titleColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         </state>
+                                        <connections>
+                                            <action selector="loginBtnWasPressed:" destination="SV0-YX-Vf7" eventType="touchUpInside" id="HRX-VH-AnR"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                             </stackView>
@@ -213,6 +216,10 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="r5X-TI-rkH"/>
                     </view>
+                    <connections>
+                        <outlet property="emailField" destination="QUY-8b-Vhb" id="BFH-tW-gK9"/>
+                        <outlet property="passwordField" destination="vxM-NX-bd8" id="yjg-t5-dQq"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="NIv-qQ-VVa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
