@@ -105,6 +105,9 @@
                                         <state key="normal" title="Sign in with Google">
                                             <color key="titleColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         </state>
+                                        <connections>
+                                            <action selector="googleSignInBtnWasPressed:" destination="BOe-YR-E2Q" eventType="touchUpInside" id="D0k-XD-7kM"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rVf-8C-lLw">
                                         <rect key="frame" x="0.0" y="80" width="335" height="50"/>
@@ -116,6 +119,9 @@
                                         <state key="normal" title="Sign in with Facebook">
                                             <color key="titleColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         </state>
+                                        <connections>
+                                            <action selector="facebookSignInBtnWasPressed:" destination="BOe-YR-E2Q" eventType="touchUpInside" id="8WV-eu-qG6"/>
+                                        </connections>
                                     </button>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="or" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="c4S-LL-Nia">
                                         <rect key="frame" x="0.0" y="160" width="335" height="50"/>
@@ -133,6 +139,9 @@
                                         <state key="normal" title="Email">
                                             <color key="titleColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         </state>
+                                        <connections>
+                                            <action selector="emailSignInBtnWasPressed:" destination="BOe-YR-E2Q" eventType="touchUpInside" id="UFE-7y-I0M"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                             </stackView>
@@ -203,10 +212,19 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="asX-g0-th9">
+                                <rect key="frame" x="20" y="44" width="30" height="40"/>
+                                <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="20"/>
+                                <state key="normal" title="X">
+                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                </state>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
                             <constraint firstItem="6eZ-QA-M1V" firstAttribute="centerX" secondItem="TFe-IY-ZxR" secondAttribute="centerX" id="6O4-3l-3ms"/>
+                            <constraint firstItem="asX-g0-th9" firstAttribute="top" secondItem="r5X-TI-rkH" secondAttribute="top" id="E3N-uR-5Iz"/>
+                            <constraint firstItem="asX-g0-th9" firstAttribute="leading" secondItem="r5X-TI-rkH" secondAttribute="leading" constant="20" id="Kg0-mQ-tEE"/>
                             <constraint firstItem="r5X-TI-rkH" firstAttribute="trailing" secondItem="6eZ-QA-M1V" secondAttribute="trailing" constant="20" id="MGT-sE-em3"/>
                             <constraint firstItem="d36-qL-Y4A" firstAttribute="leading" secondItem="r5X-TI-rkH" secondAttribute="leading" constant="20" id="N1R-MH-BHh"/>
                             <constraint firstItem="6eZ-QA-M1V" firstAttribute="leading" secondItem="r5X-TI-rkH" secondAttribute="leading" constant="20" id="hwW-0d-Smy"/>
