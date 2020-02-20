@@ -17,6 +17,12 @@ class LoginVC: UIViewController {
     }
     
     @IBAction func loginBtnWasPressed(_ sender: Any) {
+        // check email and password field for value
+        if emailField.text != nil && passwordField.text != nil {
+            // call AuthSerice singleton class to access the login method
+            
+        }
+        
     }
     @IBAction func closeBtnWasPressed(_ sender: Any) {
         dismiss(animated: true, completion: nil)
