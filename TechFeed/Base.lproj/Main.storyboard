@@ -218,6 +218,9 @@
                                 <state key="normal" title="X">
                                     <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
                                 </state>
+                                <connections>
+                                    <action selector="closeBtnWasPressed:" destination="SV0-YX-Vf7" eventType="touchUpInside" id="CBb-cQ-19U"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
