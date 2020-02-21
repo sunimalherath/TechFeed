@@ -19,6 +19,7 @@
 		456CF28523F7EE1400ADDC9C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 456CF28423F7EE1400ADDC9C /* Assets.xcassets */; };
 		456CF28823F7EE1400ADDC9C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 456CF28623F7EE1400ADDC9C /* LaunchScreen.storyboard */; };
 		456CF29323F81B4D00ADDC9C /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 456CF29223F81B4D00ADDC9C /* GoogleService-Info.plist */; };
+		4588286B24006E6100950617 /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4588286A24006E6100950617 /* AuthService.swift */; };
 		74415A4F85D7474738272B6A /* Pods_TechFeed.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C59198AB2457E89DB452360C /* Pods_TechFeed.framework */; };
 /* End PBXBuildFile section */
 
@@ -38,6 +39,7 @@
 		456CF28723F7EE1400ADDC9C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		456CF28923F7EE1400ADDC9C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		456CF29223F81B4D00ADDC9C /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		4588286A24006E6100950617 /* AuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
 		C59198AB2457E89DB452360C /* Pods_TechFeed.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TechFeed.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E0CE1ED16ADDA14CBABCACCA /* Pods-TechFeed.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TechFeed.release.xcconfig"; path = "Target Support Files/Pods-TechFeed/Pods-TechFeed.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -58,6 +60,7 @@
 			isa = PBXGroup;
 			children = (
 				450E5D8323F8241700ABD626 /* DataService.swift */,
+				4588286A24006E6100950617 /* AuthService.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -260,6 +263,7 @@
 				450E5D8623F941ED00ABD626 /* AuthVC.swift in Sources */,
 				456CF28023F7EE0F00ADDC9C /* SecondViewController.swift in Sources */,
 				450E5D8823F943FD00ABD626 /* LoginVC.swift in Sources */,
+				4588286B24006E6100950617 /* AuthService.swift in Sources */,
 				450E5D8A23F9702F00ABD626 /* InsetTextField.swift in Sources */,
 				456CF27E23F7EE0F00ADDC9C /* FirstViewController.swift in Sources */,
 				456CF27A23F7EE0F00ADDC9C /* AppDelegate.swift in Sources */,
